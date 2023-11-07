@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 468px) {
+  body {
+    background-image: url(https://media.giphy.com/media/1yld7nW3oQ2IyRubUm/giphy.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pixel {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+  }
+  .container {
+    background-color: #000006;
+    --size: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    gap: 3px;
+    padding: .5rem;
+  }
+  label,
+  p {
+    font-size: 22px;
+    color: rgb(45, 248, 4);
+  }
+  form {
+    background-color: #000008;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 9px;
+    gap: 10px;
+  }
+  form input {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 469px) and (max-width: 768px) {
+  body {
+    background-image: url(https://media.giphy.com/media/iiJ870TcI3PZKxatzS/giphy.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pixel {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  .container {
+    background-color: #000006;
+    --size: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    gap: 3px;
+    padding: 2rem;
+  }
+  label,
+  p {
+    font-size: 22px;
+    color: rgb(45, 248, 4);
+  }
+  form {
+    background-color: #000008;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 9px;
+    gap: 10px;
+  }
+  form input {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url(https://media.giphy.com/media/j3OL6mSc2FeV0UHMDg/giphy-downsized-large.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pixel {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  .container {
+    background-color: #000006;
+    --size: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    gap: 3px;
+    padding: 2rem;
+  }
+  label,
+  p {
+    font-size: 22px;
+    color: rgb(45, 248, 4);
+  }
+  form {
+    background-color: #000008;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 9px;
+    gap: 10px;
+  }
+  form input {
+    border: none;
+  }
+}
